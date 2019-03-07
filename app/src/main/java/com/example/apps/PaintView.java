@@ -19,7 +19,8 @@ import java.util.ArrayList;
 public class PaintView extends View {
     public  static  int BRUSH_SIZE=10;
     public  static final int DEFAULT_COLOR= Color.RED;
-    public  static final int BLACK_COLOR= Color.BLACK;
+    public  static final int BLack_COLOR= Color.BLACK;
+    public  static final int BLUE_COLOR= Color.BLUE;
     public static final int DEFAULT_BG_COLOR=Color.WHITE;
     private static final float TOUCH_TOLORENCE=4;
     private float mX,mY;
@@ -52,9 +53,6 @@ public class PaintView extends View {
         mPaint.setStrokeCap(Paint.Cap.ROUND);
         mPaint.setXfermode(null);
         mPaint.setAlpha(0xff);
-
-        mEmboss=new EmbossMaskFilter( new float[] {1,1,1},0.4f,6,3.5f);
-        mBlur=new BlurMaskFilter(5,BlurMaskFilter.Blur.NORMAL);
     }
 
     public void init(DisplayMetrics metrics){
@@ -74,19 +72,16 @@ public class PaintView extends View {
     }
 
     public void emboss(){
-        emboss=true;
-        blur=true;
+
     }
 
     public void blur(){
-        emboss=false;
-        blur=true;
+
     }
 
     public void clear(){
         backgroundColor=DEFAULT_BG_COLOR;
         paths.clear();
-        normal();
         invalidate();
     }
 
@@ -104,9 +99,9 @@ public class PaintView extends View {
             mPaint.setMaskFilter(null);
 
             if(fp.emboss)
-                mPaint.setMaskFilter(mEmboss);
+                mPaint.setColor(BLack_COLOR);
             else if(fp.blur)
-                mPaint.setMaskFilter(mBlur);
+                mPaint.setColor(BLUE_COLOR);
 
             mCanvas.drawPath(fp.path,mPaint);
         }
