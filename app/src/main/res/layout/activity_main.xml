@@ -1,18 +1,20 @@
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context="com.example.apps.MainActivity"
     android:background="@color/colorPrimary">
 
-    <ImageButton
-        android:layout_width="200dp"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="51dp"
-        android:background="@android:color/background_dark"
-        android:src="@drawable/images" />
+        android:layout_marginTop="44dp" />
+
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -96,6 +98,7 @@
         android:layout_marginBottom="20px"
         android:text="Erase"
         android:textSize="10sp" />
+
 
 
 </RelativeLayout>
