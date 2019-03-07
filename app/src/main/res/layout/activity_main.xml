@@ -36,55 +36,66 @@
 
     <Button
         android:id="@+id/normal_button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="39dp"
+        android:layout_height="28dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="572dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="574dp"
         android:layout_marginBottom="20px"
-        android:text="N"
+        android:background="#FF0000"
+        android:text=""
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/Blur_button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="39dp"
+        android:layout_height="28dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="134dp"
-        android:layout_marginTop="572dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="574dp"
         android:layout_marginBottom="20px"
-        android:text="G"
+        android:background="#000080"
+        android:text=""
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/Black_button"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="39dp"
+        android:layout_height="28dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="572dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="574dp"
         android:layout_marginBottom="20px"
+        android:background="#000000	"
         android:text="B"
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/reset_button"
-        android:layout_width="104dp"
-        android:layout_height="wrap_content"
+        android:layout_width="68dp"
+        android:layout_height="35dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="188dp"
-        android:layout_marginTop="572dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="611dp"
         android:layout_marginBottom="20px"
         android:text="Reset"
-        android:textSize="20sp" />
+        android:textSize="10sp" />
 
-
-
-    />
+    <Button
+        android:id="@+id/Erase"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginBottom="20px"
+        android:text="Erase"
+        android:textSize="10sp" />
 
 
 </RelativeLayout>

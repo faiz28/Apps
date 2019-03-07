@@ -17,10 +17,11 @@ import android.view.View;
 import java.util.ArrayList;
 
 public class PaintView extends View {
-    public  static  int BRUSH_SIZE=10;
+    public  static  int BRUSH_SIZE=15;
     public  static final int DEFAULT_COLOR= Color.RED;
     public  static final int BLack_COLOR= Color.BLACK;
     public  static final int BLUE_COLOR= Color.BLUE;
+    public  static  final int ERASE_COLOR=Color.WHITE;
     public static final int DEFAULT_BG_COLOR=Color.WHITE;
     private static final float TOUCH_TOLORENCE=4;
     private float mX,mY;
@@ -32,8 +33,7 @@ public class PaintView extends View {
     private int stroleWidth;
     private boolean emboss;
     private boolean blur;
-    private MaskFilter mBlur;
-    private  MaskFilter mEmboss;
+    private boolean Erase;
     private Bitmap mBitmap;
     private Canvas mCanvas;
     private Paint mBitmapPaint=new Paint(Paint.DITHER_FLAG);
@@ -53,6 +53,7 @@ public class PaintView extends View {
         mPaint.setStrokeCap(Paint.Cap.ROUND);
         mPaint.setXfermode(null);
         mPaint.setAlpha(0xff);
+
     }
 
     public void init(DisplayMetrics metrics){
@@ -72,18 +73,24 @@ public class PaintView extends View {
     }
 
     public void emboss(){
-
+        currentColor=BLack_COLOR;
     }
 
     public void blur(){
-
+        currentColor=BLUE_COLOR;
     }
+    public void Erase(){
+        currentColor=ERASE_COLOR;
+    }
+
 
     public void clear(){
         backgroundColor=DEFAULT_BG_COLOR;
         paths.clear();
+        normal();
         invalidate();
     }
+
 
     @Override
 
@@ -97,12 +104,6 @@ public class PaintView extends View {
             mPaint.setColor(fp.color);
             mPaint.setStrokeWidth(fp.strokWidth);
             mPaint.setMaskFilter(null);
-
-            if(fp.emboss)
-                mPaint.setColor(BLack_COLOR);
-            else if(fp.blur)
-                mPaint.setColor(BLUE_COLOR);
-
             mCanvas.drawPath(fp.path,mPaint);
         }
 
@@ -113,7 +114,7 @@ public class PaintView extends View {
     private void touchStart(float x,float y)
     {
         mPath=new Path();
-        FingerPath fp=new FingerPath(currentColor,emboss,blur,stroleWidth,mPath);
+        FingerPath fp=new FingerPath(currentColor,emboss,blur,stroleWidth,Erase,mPath);
         paths.add(fp);
 
         mPath.reset();

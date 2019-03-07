@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private PaintView paintView;
-    private Button reset,normal,blur,emboss;
+    private Button reset,normal,blur,emboss,erase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +55,15 @@ public class MainActivity extends AppCompatActivity {
                 paintView.emboss();
             }
         });
+
+        erase=(Button) findViewById(R.id.Erase);
+        erase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                paintView.Erase();
+            }
+        });
+
 
 
     }
