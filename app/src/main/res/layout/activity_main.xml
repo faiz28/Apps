@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="51dp"
+        android:background="@android:color/background_dark"
+        android:src="@drawable/images" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#333"
+        android:gravity="center"
+        android:text="Write Practice"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <com.example.apps.PaintView
+        android:id="@+id/Draw"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="263dp"
+        android:background="#ffff" />
+
+    <Button
+        android:id="@+id/normal_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginBottom="20px"
+        android:text="N"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Blur_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginBottom="20px"
+        android:text="G"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Black_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginBottom="20px"
+        android:text="B"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginBottom="20px"
+        android:text="Reset"
+        android:textSize="20sp" />
+
+
+
+    />
+
+
+</RelativeLayout>
