@@ -18,6 +18,7 @@ import java.util.ArrayList;
 
 public class PaintView extends View {
     public  static  int BRUSH_SIZE=15;
+    public static  int ERASE_BRUSH_SIZE=25;
     public  static final int DEFAULT_COLOR= Color.RED;
     public  static final int BLack_COLOR= Color.BLACK;
     public  static final int BLUE_COLOR= Color.BLUE;
@@ -68,8 +69,8 @@ public class PaintView extends View {
     }
 
     public void normal(){
-        emboss=false;
-        blur=false;
+        currentColor=DEFAULT_COLOR;
+        stroleWidth=BRUSH_SIZE;
     }
 
     public void emboss(){
@@ -81,6 +82,7 @@ public class PaintView extends View {
     }
     public void Erase(){
         currentColor=ERASE_COLOR;
+        stroleWidth=ERASE_BRUSH_SIZE;
     }
 
 

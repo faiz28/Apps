@@ -91,8 +91,8 @@
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="206dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="610dp"
         android:layout_marginBottom="20px"
         android:text="Erase"
         android:textSize="10sp" />
