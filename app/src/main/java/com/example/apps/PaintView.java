@@ -13,8 +13,8 @@ import android.view.View;
 import java.util.ArrayList;
 
 public class PaintView extends View {
-    public  static  int BRUSH_SIZE=15;
-    public static  int ERASE_BRUSH_SIZE=25;
+    public  static  int BRUSH_SIZE=20;
+    public static  int ERASE_BRUSH_SIZE=30;
     public  static final int DEFAULT_COLOR= Color.RED;
     public  static final int BLack_COLOR= Color.BLACK;
     public  static final int BLUE_COLOR= Color.BLUE;
@@ -64,17 +64,19 @@ public class PaintView extends View {
         stroleWidth=BRUSH_SIZE;
     }
 
-    public void normal(){
+    public void red(){
         currentColor=DEFAULT_COLOR;
         stroleWidth=BRUSH_SIZE;
     }
 
-    public void emboss(){
+    public void black(){
+        stroleWidth=BRUSH_SIZE;
         currentColor=BLack_COLOR;
     }
 
-    public void blur(){
+    public void blue(){
         currentColor=BLUE_COLOR;
+        stroleWidth=BRUSH_SIZE;
     }
     public void Erase(){
         currentColor=ERASE_COLOR;
@@ -85,7 +87,7 @@ public class PaintView extends View {
     public void clear(){
         backgroundColor=DEFAULT_BG_COLOR;
         paths.clear();
-        normal();
+        red();
         invalidate();
     }
 
