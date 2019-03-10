@@ -8,8 +8,7 @@ import com.example.apps.ImageAdapter;
 
 public class ImageAdapter extends PagerAdapter{
     private Context mContext;
-    private int[] mImageIds = new int[] {R.drawable.images,R.drawable.image2,R.drawable.image3};
-
+    private int[] mImageIds = new int[] {R.drawable.o,R.drawable.a,R.drawable.e,R.drawable.ei,R.drawable.ouuu,R.drawable.ui,R.drawable.rri,R.drawable.eii,R.drawable.oii,R.drawable.u,R.drawable.oio,};
 
     ImageAdapter(Context context)
     {
