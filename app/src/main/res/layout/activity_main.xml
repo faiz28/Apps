@@ -2,35 +2,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home"
+    android:background="#976D9E"
     tools:context="com.example.apps.MainActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/Write"
-        android:layout_width="136dp"
-        android:layout_height="89dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="31dp"
-        android:layout_marginTop="549dp"
-        android:background="@drawable/button_shape"
-        android:text="Write"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="541dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/cat" />
 
-    <Button
-        android:id="@+id/Video"
-        android:layout_width="153dp"
-        android:layout_height="91dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="168dp"
-        android:layout_marginTop="549dp"
-        android:background="@drawable/button_shape"
-        android:text="Video"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/Write"
+                android:layout_width="159dp"
+                android:layout_height="121dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="412dp"
+                android:background="@drawable/button_shape"
+                android:text="Write"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/Video"
+                android:layout_width="174dp"
+                android:layout_height="119dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="414dp"
+                android:background="@drawable/button_shape"
+                android:text="Video"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/Fun"
+                android:layout_width="174dp"
+                android:layout_height="111dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="121dp"
+                android:layout_marginTop="571dp"
+                android:background="@drawable/button_shape"
+                android:text="Fun"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
 
 
 

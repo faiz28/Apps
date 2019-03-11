@@ -9,8 +9,11 @@ import android.widget.Button;
 
 public class MainActivity_Writeing extends AppCompatActivity {
     private PaintView paintView;
-    private Button reset,normal,blur,emboss,erase;
+    private Button reset,red,blue,black,erase;
     private ViewPager viewPager;
+    int halaman=0;
+    private int[] mImageIds = new int[] {R.drawable.o,R.drawable.a,R.drawable.e,R.drawable.ei,R.drawable.ouuu,R.drawable.ui,R.drawable.rri,R.drawable.eii,R.drawable.oii,R.drawable.u,R.drawable.oio,};
+
 
 
     @Override
@@ -19,21 +22,23 @@ public class MainActivity_Writeing extends AppCompatActivity {
         setContentView(R.layout.activity_main__writeing);
 
 
+
+
         paintView=(PaintView) findViewById(R.id.Draw);
         DisplayMetrics metrics=new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
         paintView.init(metrics);
 
-        normal=(Button) findViewById(R.id.Red_button);
-        normal.setOnClickListener((new View.OnClickListener() {
+        red=(Button) findViewById(R.id.Red_button);
+        red.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 paintView.red();
             }
         }));
 
-        blur=(Button) findViewById(R.id.Blue_button);
-        blur.setOnClickListener(new View.OnClickListener() {
+        blue=(Button) findViewById(R.id.Blue_button);
+        blue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 paintView.blue();
@@ -48,8 +53,8 @@ public class MainActivity_Writeing extends AppCompatActivity {
             }
         });
 
-        emboss=(Button) findViewById(R.id.Black_button);
-        emboss.setOnClickListener(new View.OnClickListener() {
+        black=(Button) findViewById(R.id.Black_button);
+        black.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 paintView.black();
@@ -67,6 +72,15 @@ public class MainActivity_Writeing extends AppCompatActivity {
         viewPager=findViewById(R.id.viewPager);
         ImageAdapter adapter= new ImageAdapter(this);
         viewPager.setAdapter(adapter);
+    }
+
+    public void next(View view){
+            viewPager.setCurrentItem(viewPager.getCurrentItem()+1,true);
+
+    }
+    public void back(View view){
+        viewPager.setCurrentItem(viewPager.getCurrentItem()-1,true);
+
     }
 
 
