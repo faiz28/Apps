@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/faiz/AndroidStudioProjects/Apps/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/home/faiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a7e4ae52e4e89c6adb73319cf711e200/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

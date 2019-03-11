@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0E0E6"
+    tools:context=".youtube_fun">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalScrollbarPosition="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtubePlay1"
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <Button
+                android:id="@+id/kobita"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_below="@+id/youtubePlay1"
+                android:background="@drawable/button_shape"
+                android:text="কবিতা"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtubePlay2"
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <Button
+                android:id="@+id/golpo"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_below="@+id/youtubePlay2"
+                android:background="@drawable/button_shape"
+                android:textColor="#FFFFFF"
+                android:text="গল্প"
+                android:textSize="30dp" />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtubePlay3"
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <Button
+                android:id="@+id/moto_patlo"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_below="@+id/youtubePlay3"
+                android:background="@drawable/button_shape"
+                android:textColor="#FFFFFF"
+                android:text="মটু পাতলু"
+                android:textSize="30dp" />
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtubePlay4"
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
+            </com.google.android.youtube.player.YouTubePlayerView>
+
+            <Button
+                android:id="@+id/games"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_below="@+id/youtubePlay4"
+                android:background="@drawable/button_shape"
+                android:textColor="#FFFFFF"
+                android:text="খেলাধুলা"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

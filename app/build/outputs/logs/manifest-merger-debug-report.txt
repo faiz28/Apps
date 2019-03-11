@@ -1,0 +1,184 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a7e4ae52e4e89c6adb73319cf711e200/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f82f43f7f14df5799f704bdc0d27c89/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/9979dcc75455f95959af0c4cfeaab6b9/AndroidManifest.xml:17:1-22:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.16] /home/faiz/.gradle/caches/transforms-1/files-1.1/android-gif-drawable-1.2.16.aar/a6a43c09ebb82722c27f536f400c6eb4/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5278483893723bf1c0981ec80c547776/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a919f68dfa345fdfdf9b58a20508c1c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/51e73652892bae8234f28c7e335b2439/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b1d032f80d6bc08edf13d35bc9a39b3f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/38ed69ee76b4c292bc4cf1d99d8d5807/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/4b02269d782eb7e24dd256534d5b5b26/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a0ec686951462fd37490160a7111d7f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8b927e1d78ba26a57b11ec3fda24d34b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/39e31c2bcfa1dd58ef1101e78d6f8ab0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b03fecdab01ebacf60ef6bbc6ffbe197/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/640fdf4d4863e060f87bafb2ceb25138/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/81eaaa3a403b54546fd73af15f50c3ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f8d0b6f48b4ab9e3bb0645dd2dd2e25d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af480b1995daf672c3b2ab0703faeb5d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5b5b793bd843f56b7ffa71c6851969f3/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e3b1f6642742ad72fae7a439ce95d159/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f759c3da7d4e0b255bca968094360ab4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1a495253a2c1e7052a4391b5f8211562/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/62a17a7b9375346106ebdcba129aa8a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ca56a5cb315878f60bfddc3b39072b98/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/64add7b9803a8f24beeace42acba3de6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/63dcd6bfdb687b44440f8d57677f961b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/7afbc5600d7aa07c0ef4fa9d126c5dda/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6e667f95062631dce226f462c837e926/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b16560d6cae5557664ec08f4a9b8794f/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:8:22-76
+application
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:11:5-28:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f82f43f7f14df5799f704bdc0d27c89/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f82f43f7f14df5799f704bdc0d27c89/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af480b1995daf672c3b2ab0703faeb5d/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af480b1995daf672c3b2ab0703faeb5d/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5b5b793bd843f56b7ffa71c6851969f3/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5b5b793bd843f56b7ffa71c6851969f3/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af480b1995daf672c3b2ab0703faeb5d/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.example.apps.youtube_fun
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:18:9-58
+	android:name
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:18:19-46
+activity#com.example.apps.MainActivity_video
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:19:19-53
+activity#com.example.apps.MainActivity_Writeing
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:20:9-59
+	android:name
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:20:19-56
+activity#com.example.apps.MainActivity
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:21:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml:25:27-74
+uses-sdk
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a7e4ae52e4e89c6adb73319cf711e200/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a7e4ae52e4e89c6adb73319cf711e200/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f82f43f7f14df5799f704bdc0d27c89/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/faiz/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6f82f43f7f14df5799f704bdc0d27c89/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/9979dcc75455f95959af0c4cfeaab6b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/9979dcc75455f95959af0c4cfeaab6b9/AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.16] /home/faiz/.gradle/caches/transforms-1/files-1.1/android-gif-drawable-1.2.16.aar/a6a43c09ebb82722c27f536f400c6eb4/AndroidManifest.xml:6:5-8:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.16] /home/faiz/.gradle/caches/transforms-1/files-1.1/android-gif-drawable-1.2.16.aar/a6a43c09ebb82722c27f536f400c6eb4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5278483893723bf1c0981ec80c547776/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5278483893723bf1c0981ec80c547776/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a919f68dfa345fdfdf9b58a20508c1c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a919f68dfa345fdfdf9b58a20508c1c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/51e73652892bae8234f28c7e335b2439/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/51e73652892bae8234f28c7e335b2439/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b1d032f80d6bc08edf13d35bc9a39b3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b1d032f80d6bc08edf13d35bc9a39b3f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/38ed69ee76b4c292bc4cf1d99d8d5807/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/38ed69ee76b4c292bc4cf1d99d8d5807/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/4b02269d782eb7e24dd256534d5b5b26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/4b02269d782eb7e24dd256534d5b5b26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a0ec686951462fd37490160a7111d7f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/a0ec686951462fd37490160a7111d7f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8b927e1d78ba26a57b11ec3fda24d34b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8b927e1d78ba26a57b11ec3fda24d34b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/39e31c2bcfa1dd58ef1101e78d6f8ab0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/39e31c2bcfa1dd58ef1101e78d6f8ab0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b03fecdab01ebacf60ef6bbc6ffbe197/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b03fecdab01ebacf60ef6bbc6ffbe197/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/640fdf4d4863e060f87bafb2ceb25138/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/640fdf4d4863e060f87bafb2ceb25138/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/81eaaa3a403b54546fd73af15f50c3ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/81eaaa3a403b54546fd73af15f50c3ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f8d0b6f48b4ab9e3bb0645dd2dd2e25d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/f8d0b6f48b4ab9e3bb0645dd2dd2e25d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af480b1995daf672c3b2ab0703faeb5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/af480b1995daf672c3b2ab0703faeb5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5b5b793bd843f56b7ffa71c6851969f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5b5b793bd843f56b7ffa71c6851969f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e3b1f6642742ad72fae7a439ce95d159/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/e3b1f6642742ad72fae7a439ce95d159/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f759c3da7d4e0b255bca968094360ab4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f759c3da7d4e0b255bca968094360ab4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1a495253a2c1e7052a4391b5f8211562/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/1a495253a2c1e7052a4391b5f8211562/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/62a17a7b9375346106ebdcba129aa8a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/62a17a7b9375346106ebdcba129aa8a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ca56a5cb315878f60bfddc3b39072b98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/ca56a5cb315878f60bfddc3b39072b98/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/64add7b9803a8f24beeace42acba3de6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/64add7b9803a8f24beeace42acba3de6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/63dcd6bfdb687b44440f8d57677f961b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/faiz/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/63dcd6bfdb687b44440f8d57677f961b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/7afbc5600d7aa07c0ef4fa9d126c5dda/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/7afbc5600d7aa07c0ef4fa9d126c5dda/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6e667f95062631dce226f462c837e926/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6e667f95062631dce226f462c837e926/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b16560d6cae5557664ec08f4a9b8794f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/faiz/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b16560d6cae5557664ec08f4a9b8794f/AndroidManifest.xml:20:5-44
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+		ADDED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml
+		INJECTED from /home/faiz/AndroidStudioProjects/Apps/app/src/main/AndroidManifest.xml

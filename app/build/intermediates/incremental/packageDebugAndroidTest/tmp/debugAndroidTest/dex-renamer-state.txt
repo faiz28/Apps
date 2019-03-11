@@ -1,0 +1,4 @@
+#Sun Mar 10 13:26:16 BDT 2019
+base.0=/home/faiz/AndroidStudioProjects/Apps/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/out
+path.0=classes.dex
+renamed.0=classes.dex

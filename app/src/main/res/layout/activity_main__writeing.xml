@@ -2,17 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="#B0E0E6"
     tools:context="com.example.apps.MainActivity">
-
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewPager"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="44dp" />
-
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,15 +15,45 @@
         android:textColor="#fff"
         android:textSize="30sp" />
 
-    <com.example.apps.PaintView
-        android:id="@+id/Draw"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
+
+    <ImageView
+        android:layout_width="66dp"
+        android:layout_height="63dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="263dp"
+        android:layout_marginTop="123dp"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:layout_width="77dp"
+        android:layout_height="76dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="334dp"
+        android:layout_marginTop="114dp"
+        android:src="@drawable/next" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="278dp"
+        android:layout_height="198dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp" />
+
+
+    <com.example.apps.PaintView
+        android:id="@+id/Draw"
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="248dp"
         android:background="#ffff" />
+
 
     <Button
         android:id="@+id/Red_button"
@@ -40,8 +61,8 @@
         android:layout_height="28dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="26dp"
-        android:layout_marginTop="574dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="629dp"
         android:layout_marginBottom="20px"
         android:background="#FF0000"
         android:text=""
@@ -53,8 +74,8 @@
         android:layout_height="28dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="108dp"
-        android:layout_marginTop="574dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="629dp"
         android:layout_marginBottom="20px"
         android:background="#000080"
         android:text=""
@@ -66,8 +87,8 @@
         android:layout_height="28dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="67dp"
-        android:layout_marginTop="574dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="629dp"
         android:layout_marginBottom="20px"
         android:background="#000000	"
         android:text="B"
@@ -75,24 +96,24 @@
 
     <Button
         android:id="@+id/reset_button"
-        android:layout_width="68dp"
-        android:layout_height="35dp"
+        android:layout_width="76dp"
+        android:layout_height="38dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="611dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="661dp"
         android:layout_marginBottom="20px"
         android:text="Reset"
         android:textSize="10sp" />
 
     <Button
         android:id="@+id/Erase"
-        android:layout_width="59dp"
-        android:layout_height="35dp"
+        android:layout_width="70dp"
+        android:layout_height="37dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="26dp"
-        android:layout_marginTop="610dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="662dp"
         android:layout_marginBottom="20px"
         android:text="Erase"
         android:textSize="10sp" />
