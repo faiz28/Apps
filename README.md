@@ -5,7 +5,7 @@ you must connect your phone with internet.
 
 
 #Contribution
-[Faiz Ahmed](https://github.com/faiz28/)
-[Apple Mahmud](https://github.com/DelowarHossen45)
-[Mehedi Hasan Rony](https://github.com/faiz28/Apps/commits?author=MHRony15)
+[Faiz Ahmed](https://github.com/faiz28/)</br>
+[Apple Mahmud](https://github.com/DelowarHossen45)</br>
+[Mehedi Hasan Rony](https://github.com/faiz28/Apps/commits?author=MHRony15)</br>
 
